@@ -1,6 +1,0 @@
-@startuml
-(Enviar Solicitud de Crédito) as ESC
-Agente -right-> ESC
-ESC <.. (Enviar solicitud de crédto personal)
-ESC <.. (Enviar solicitud de crédto empresarial)
-@enduml

@@ -1,5 +1,0 @@
-@startuml
-(Evaluar\n Solicitud de Crédito) as ESC
-Agente --> ESC
-ESC <.. (Solicitar Inofrmación adicional al cliente) : <<extend>>
-@enduml
