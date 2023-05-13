@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+actor Socio as sc
+actor Bibliotecario as bbl
+rectangle Biblioteca {
+(Reservar Libro) as Rl
+(Prestar Libro) as Pl
+(Devolver Libro) as Dl
+(Actualizar Catálogo) as Ac
+}
+
+sc -- Rl
+sc -- Pl
+sc -- Dl
+bbl -- Pl
+bbl -- Ac
+@enduml
